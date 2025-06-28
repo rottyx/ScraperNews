@@ -1,0 +1,140 @@
+{
+  "date": "2025-06-28",
+  "sources": [
+    {
+      "name": "El País",
+      "url": "https://elpais.com",
+      "headlines": [
+        {
+          "title": "Las seis vidas segadas en una semana dramática de violencia machista",
+          "link": "https://elpais.com/sociedad/2025-06-28/las-seis-vidas-segadas-en-una-semana-dramatica-de-violencia-machista.html",
+          "image": "https://imagenes.elpais.com/resizer/v2/YGWYHPERJBBYVBCG5K6UFUCNAQ.jpg?auth=8fb44cfe14ed4f53f779ca870468d47ec5c3cde458985c07c917bc79baffffe1&width=414"
+        },
+        {
+          "title": "Arranca la primera ola de calor: consulte el nivel de riesgo para la salud en su municipio",
+          "link": "https://elpais.com/clima-y-medio-ambiente/2025-06-28/la-primera-ola-de-calor-arranca-con-el-75-de-los-municipios-en-niveles-de-riesgo-para-la-salud.html",
+          "image": "https://imagenes.elpais.com/resizer/v2/MM5JJFASPRE33PNASG7OMS7TWU.png?auth=d5307622c396678c40c924031d3e79327c404b5550ea257d5b7d80b638846bbb&width=414&height=233&smart=true"
+        },
+        {
+          "title": "Claves del Orgullo prohibido que defenderá hoy los derechos LGTBIQ+ en una Budapest en alta tensión",
+          "link": "https://elpais.com/sociedad/lgtb/2025-06-28/claves-del-orgullo-prohibido-de-budapest.html",
+          "image": null
+        },
+        {
+          "title": "Marta Carazo, periodista de TVE, nueva jefa de la Secretaría de la Reina",
+          "link": "https://elpais.com/espana/2025-06-28/marta-carazo-periodista-de-tve-nueva-jefa-de-la-secretaria-de-la-reina.html",
+          "image": "https://imagenes.elpais.com/resizer/v2/6OFCNUY2JZETXFEL7U7HPNCXAQ.jpg?auth=8e0e84a01276c4b2457c77dfe0eaa631a9fc0f0862da158400b033da7223b687&width=414&height=233&focal=1842%2C769"
+        },
+        {
+          "title": "Años en la clandestinidad en España: el camino imposible de los inmigrantes sin papeles",
+          "link": "https://elpais.com/espana/2025-06-28/anos-en-la-clandestinidad-el-camino-imposible-de-los-inmigrantes-sin-papeles-en-espana.html",
+          "image": "https://imagenes.elpais.com/resizer/v2/P222MC3SIZBHZITJDZLBUUPPLE.JPG?auth=e43fd354bad894ce7619993ad5bb862c47c55b98b047b4214315e7dae06f8f23&width=414&height=233&smart=true"
+        }
+      ]
+    },
+    {
+      "name": "El Mundo",
+      "url": "https://www.elmundo.es",
+      "headlines": [
+        {
+          "title": "El 60% de los votantes cree que el enfrentamiento de Pedro Sánchez con EEUU y la OTAN es dañino para España",
+          "link": "https://www.elmundo.es/espana/2025/06/27/685ede34e85eceaa4b8b459c.html",
+          "image": null
+        },
+        {
+          "title": "Los aliados de la OTAN podrán exigir ya el año que viene a España que gaste más en Defensa si no cumple con sus capacidades militares",
+          "link": "https://www.elmundo.es/internacional/2025/06/27/685ebdb321efa06f088b457a.html",
+          "image": null
+        },
+        {
+          "title": "\"España ha levantado la bandera del 'no al 5%' y hemos quedado aislados y en evidencia\"",
+          "link": "https://www.elmundo.es/opinion/luces-para-la-constitucion/2025/06/27/685e99cafdddff94098b45a0.html",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/06/27/17510310279120.jpg"
+        },
+        {
+          "title": "El día que Cerdán encontró a Antxon: 'Milagro Ciudad de Vacaciones', el 'pelotazo' que no fue pero unió a los dos investigados",
+          "link": "https://www.elmundo.es/espana/2025/06/27/685dcafae4d4d88a1d8b456e.html",
+          "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2025/06/28/17510709215229.jpg"
+        },
+        {
+          "title": "El PP garantizará \"en toda la nación el derecho a aprender en español\"",
+          "link": "https://www.elmundo.es/espana/2025/06/27/685ef419e4d4d8241c8b45a5.html",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "ABC",
+      "url": "https://www.abc.es",
+      "headlines": [
+        {
+          "title": "ERROR: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.abc.es/\", waiting until \"load\"\n",
+          "link": "https://www.abc.es",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "La Vanguardia",
+      "url": "https://www.lavanguardia.com",
+      "headlines": [
+        {
+          "title": "La ‘cúpula de calor’ abrasa España",
+          "link": "https://www.lavanguardia.com/vida/20250628/10835258/cupula-calor-abrasa-espana.html",
+          "image": "https://cdn.jwplayer.com/videos/m08criXX-3t6A4SJK.mp4"
+        },
+        {
+          "title": "La comisión bilateral Estado-Generalitat para la financiación singular será el 14 de julio",
+          "link": "https://www.lavanguardia.com/politica/20250628/10836351/comision-bilateral-generalitat-nuevo-modelo-financiacion-sera-14-julio.html",
+          "image": "https://www.lavanguardia.com/files/image_449_221/files/fp/uploads/2025/06/28/685fb6e929095.r_d.2128-901-2350.jpeg"
+        },
+        {
+          "title": "Sánchez mantiene el pulso a Trump y Netanyahu en plena tormenta política",
+          "link": "https://www.lavanguardia.com/politica/20250628/10835508/sanchez-mantiene-pulso-trump-netanyahu-plena-tormenta-politica.html",
+          "image": "https://www.lavanguardia.com/files/image_150_155/files/fp/uploads/2025/06/26/685cf43badd35.r_d.360-203-3808.jpeg"
+        },
+        {
+          "title": "Meloni arremete contra Sánchez: “Pone en peligro la seguridad de todos”",
+          "link": "https://www.lavanguardia.com/internacional/20250628/10835931/partido-meloni-arremete-sanchez-pone-peligro-seguridad-todos.html",
+          "image": null
+        },
+        {
+          "title": "“La economía les va bien”",
+          "link": "https://www.lavanguardia.com/internacional/20250628/10835438/economia-les.html",
+          "image": "https://www.lavanguardia.com/files/image_449_221/uploads/2025/06/27/685edb37758cd.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "El Confidencial",
+      "url": "https://www.elconfidencial.com",
+      "headlines": [
+        {
+          "title": "La Audiencia cerca a Begoña Gómez por tráfico de influencias y malversación: actuó como \"funcionaria\"",
+          "link": "https://www.elconfidencial.com/espana/2025-06-28/complica-defensa-begona-gomez-funcionaria-publica_4159406/",
+          "image": null
+        },
+        {
+          "title": "Caso 'hermanísimo': nuevo intento abortado del exjuez cercano a Leire",
+          "link": "https://www.elconfidencial.com/espana/2025-06-27/tumban-maniobra-exjuez-fontanera-psoe-caso-hermanisimo_4161141/",
+          "image": null
+        },
+        {
+          "title": "Prostituyentes y destituyentes en la patria del salseo",
+          "link": "https://blogs.elconfidencial.com/espana/cronicas-desde-el-frente-viral/2025-06-28/corrupcion-politica-abalos-sanchez-1hms_4160917/",
+          "image": "https://images.ecestaticos.com/ydcpyVyECsQLegLHnzoQ7ZxJJtQ=/92x92/filters:format(png)/f.elconfidencial.com%2Fjournalist%2Fb67%2Fe16%2F4d0%2Fb67e164d01536c3b13ad79132da5aa88.png"
+        },
+        {
+          "title": "Dentro de los almacenes que prepara España para evitar que se rompa el mercado del aceite",
+          "link": "https://www.elconfidencial.com/economia/2025-06-28/aceite-oliva-espana-precio-patrimonio-olivarero_4161057/",
+          "image": "https://images.ecestaticos.com/WYBI57LImcPiw_JsiQK6u_7lXTs=/filters:format(jpg):quality(99):fill(white)/f.elconfidencial.com%2Ffront%2F7c5%2F3a7%2Fa9e%2F7c53a7a9eee42432df6d1a059e4fe3d5.jpg"
+        },
+        {
+          "title": "Moncloa y la Generalitat pisan el acelerador de la financiación singular y se citan el próximo 14 de julio",
+          "link": "https://www.elconfidencial.com/espana/2025-06-28/moncloa-generalitat-financiacion-singular-illa-junqueras_4161458/",
+          "image": null
+        }
+      ]
+    }
+  ]
+}
