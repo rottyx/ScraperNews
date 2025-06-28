@@ -1,47 +1,46 @@
-# 馃摪 ScraperNews
+# ScraperNews
 
-**ScraperNews** es una herramienta que genera una portada diaria de noticias relevantes de los principales peri贸dicos espa帽oles. Extrae, resume y agrupa titulares similares, y los ilustra con im谩genes generadas al estilo c贸mic.
+**ScraperNews** es una herramienta que genera una portada diaria de noticias relevantes de los principales periódicos espa?oles. Extrae, resume y agrupa titulares similares, y los ilustra con imágenes generadas al estilo cómic.
 
-## 馃殌 Flujo de trabajo
+## Flujo de trabajo
 
 1. **Scraping (`main.py`)**  
-   Extrae titulares de El Pa铆s, El Mundo, ABC, La Vanguardia y El Confidencial. Guarda los resultados en `final_news.json`.
+   Extrae titulares de El País, El Mundo, ABC, La Vanguardia y El Confidencial. Guarda los resultados en `final_news.json`.
 
-2. **Resumen y deduplicaci贸n (`summarizer.py`)**  
+2. **Resumen y deduplicación (`summarizer.py`)**  
    Usa GPT-4 para resumir cada titular y fusionar los que tratan sobre el mismo tema. Guarda los resultados en `final_summarized.json`.
 
-3. **Generaci贸n de im谩genes (`generate_images.py`)**  
-   Genera ilustraciones al estilo c贸mic con DALL路E para los res煤menes sintetizados. Guarda los resultados exitosos en `final_summarized_with_images.json`.
+3. **Generación de imágenes (`generate_images.py`)**  
+   Genera ilustraciones al estilo cómic con DALL-E para los resúmenes sintetizados. Guarda los resultados exitosos en `final_summarized_with_images.json`.
 
-4. **Visualizaci贸n (`index.html`)**  
-   Muestra la portada del d铆a con los res煤menes y sus ilustraciones en un grid atractivo.
+4. **Visualización (`index.html`)**  
+   Muestra la portada del día con los resúmenes y sus ilustraciones en un grid atractivo.
 
-## 馃敡 Requisitos
+## Requisitos
 
 ```bash
 pip install -r requirements.txt
 playwright install
 ```
 
-> 鈿狅笍 Recuerda ejecutar `playwright install` despu茅s de instalar las dependencias. Esto descargar谩 los navegadores necesarios para que `main.py` funcione correctamente.
+> Recuerda ejecutar `playwright install` después de instalar las dependencias. Esto descargará los navegadores necesarios para que `main.py` funcione correctamente.
+> Recuerda crear un archivo .env en el directorio y guardar tu apikey: OPENAI_API_KEY=skXXXXXXX...
 
-> 鈿狅笍Recuerda crear un archivo .env en el directorio y guardar tu apikey: OPENAI_API_KEY=skXXXXXXX...
+## Notas adicionales
 
-## 馃 Notas adicionales
-
-- Este proyecto **podr铆a automatizarse** para ejecutarse diariamente (por ejemplo con un cron job), y as铆 generar una portada diaria de forma continua.
-- **Sin embargo, no se ha implementado dicha automatizaci贸n** deliberadamente, ya que los res煤menes y comparaciones sem谩nticas usan la API de OpenAI y consumen una cantidad considerable de tokens.
+- Este proyecto **podría automatizarse** para ejecutarse diariamente (por ejemplo con un cron job), y así generar una portada diaria de forma continua.
+- **Sin embargo, no se ha implementado dicha automatización** deliberadamente, ya que los resúmenes, las comparaciones semánticas y la generación de imágenes usan la API de OpenAI y consumen una cantidad considerable de tokens.
 - Prefiero mantener el control manual del proceso y lanzar el flujo solo cuando lo necesite.
 
-## 馃寪 Visualizaci贸n
+## Visualización
 
-Una vez generados los datos, puedes abrir `index.html` en tu navegador y ver una portada bajo el t铆tulo: **ScraperNews**.
+Una vez generados los datos, puedes abrir `index.html` en tu navegador y ver una portada bajo el título: **ScraperNews**.
 
 ---
 
-漏 2025 鈥?Proyecto personal creado para explorar scraping, s铆ntesis sem谩ntica e ilustraci贸n autom谩tica.
+ 2025 Proyecto personal creado para explorar scraping, síntesis semántica e ilustración automática.
 
-## 馃柋锔?Sugerencia: script de ejecuci贸n manual
+## Sugerencia: script de ejecución manual
 
 Si prefieres ejecutar todo con un solo comando manual, puedes crear un archivo `.bat` (Windows) o `.sh` (Linux/Mac) con el siguiente contenido:
 
@@ -62,9 +61,9 @@ python summarizer.py
 python generate_images.py
 ```
 
-Esto puede facilitar la ejecuci贸n del flujo completo sin depender de automatizaciones complejas.
+Esto puede facilitar la ejecución del flujo completo sin depender de automatizaciones complejas.
 
-## 馃實 C贸mo ver la portada en tu navegador
+## Cómo ver la portada en tu navegador
 
 Para evitar errores al cargar el archivo `final_summarized_with_images.json`, **no abras `index.html` con doble clic** (lo que lanza una URL `file://`).  
 Esto puede causar que el navegador bloquee el acceso al archivo JSON por razones de seguridad.
@@ -75,8 +74,8 @@ En su lugar, abre un servidor local desde la terminal:
 python -m http.server 8000
 ```
 
-Luego abre tu navegador en esta direcci贸n:
+Luego abre tu navegador en esta dirección:
 
-馃憠 [http://localhost:8000/index.html](http://localhost:8000/index.html)
+ [http://localhost:8000/index.html](http://localhost:8000/index.html)
 
-Esto permitir谩 que `fetch()` funcione correctamente y las noticias se carguen sin problema.
+Esto permitirá que `fetch()` funcione correctamente y las noticias se carguen sin problema.
